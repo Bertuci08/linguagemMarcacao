@@ -1,50 +1,48 @@
-/*seletor universal*/
-* {
-    /* Zera a margem do documento */
-    margin: 0;
-    /* Gera um espaçamento interno */
-    padding: 0;
-}
-
-/* Seletor de tipo, aplica o css */
-h5{
-    color: blueviolet;
-}
-
-/* seletor de classe */
 .titulo{
-    background-color: chocolate;
-    color: aqua;
+     background-color: rgb(152, 152, 152);
+    color: rgb(0, 0, 0);
+    text-align: center;
     /* aplica margem em todos */
     /* margin: 10px; */
     /* margin-left: 20px; */
     /* aplico o espaçamento no superior e inferior */
     /* e aplico o espaçamento na esquerda  e direita */
     /* margin: 20 0px; */
-    margin: 0 0 0 10px;
+    /* margin: 0 0 0 10px; */
     /* aplicando espaçamento externo */
     /* padding: 10px; */
-    padding: 0 10px;
-    
+    /* padding: 0 10px; */
 }
 
-.p{
-    background-color: brown;
-}
-
-.imagem{
+.imagem456{
     /* aplicando tamanho em largura */
-    width: 100px;
+    width: 325px;
     /* aplicando tamanho em altura */
-    height: 100px;
+    height: 325px;
+}
+.imagem_correndo{
+    width: 325px;
+    height: 325px;
+}
+.imagem3{
+    width: 325px;
+    height: 325px;
+}
+.imagem_short{
+    width: 325px;
+    height: 325px;
 }
 
-.formulario{
-    background-color: rgb(94, 94, 94); color: aliceblue;
+.imagem_login{
+    width: 1500px;
+    height: 700px;
+}
+
+.login{
+    background-color: rgb(94, 94, 94); color: rgb(0, 0, 0);
     width: 400px;
-    margin: 0 auto;
-    /* ALINHA O CONTEUDO INTERNO, CENTRALIZA */
     text-align: center;
+   margin: 0 auto;
 }
 
 .input-nome{
@@ -55,9 +53,11 @@ h5{
     margin-left: 10px;
     /* difinir opacidade no campo texto */
     opacity: 70%;
+    text-align: center;
 }
+
 .botao{
-    background-color: aquamarine;
+    background-color: rgb(255, 0, 0);
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -65,4 +65,12 @@ h5{
     font-size: larger;
     /* aplicando sombra no texto posição x, y blur */
     text-shadow: 5px 2px 5px rgba(212,14,57, 0.9) ;
+    text-align: center;
+}
+
+.cadastro{
+    background-color: rgb(94, 94, 94); color: rgb(0, 0, 0);
+    width: 400px;
+    text-align: center;
+   margin: 0 auto;
 }
