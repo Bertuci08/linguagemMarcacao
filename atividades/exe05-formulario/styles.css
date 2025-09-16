@@ -39,10 +39,11 @@
 }
 
 .login{
-    background-color: rgb(94, 94, 94); color: rgb(0, 0, 0);
-    width: 400px;
+    background-color: rgb(151, 151, 151); color: rgb(0, 0, 0);
+    width: 200px;
     text-align: center;
-   margin: 0 auto;
+  margin-left: 20px;
+  font-size: medium;
 }
 
 .input-nome{
