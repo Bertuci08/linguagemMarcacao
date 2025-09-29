@@ -94,8 +94,34 @@ body{
     background-color: var(--cor-vermelho-ifood);
     color: var(--cor-fundo);
     border: none;
+    /* margin-right: -300px; */
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
 }
+
+.card-produtos{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 6px #575757;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.card-produtos:hover {
+    transform: translateY(-5px);
+}
+
+
+.espaco{
+ display: flex;
+ margin-left: 100px;
+ margin-top: 30px;
+ gap: 5rem;
+}
+
