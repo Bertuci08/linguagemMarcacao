@@ -117,7 +117,6 @@ body{
     transform: translateY(-5px);
 }
 
-
 .espaco{
  display: flex;
  margin-left: 100px;
@@ -125,3 +124,228 @@ body{
  gap: 5rem;
 }
 
+/* restaurantes{
+    display: flex;
+    gap: 50px;
+    overflow-x: scroll;
+}
+restaurantes::-webkit-scrollbar{
+    visibility: hidden;
+} */
+
+.famosos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.restaurantes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+     flex-shrink: 0; /* impede que os itens encolham */
+     box-shadow: 0 4px 12px rgb(0, 0, 0, 0.5);
+     padding: 10px;
+}
+
+.restaurantes img{max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 50%;}
+
+.rodape-principal{
+    background-color: #575757;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-container{
+    display: flex;
+    gap: 40px;
+}
+
+/* .rodape-principal .container{
+    display: flex;
+    gap: 40px;
+} */
+
+.coluna-rodape{flex: 1;}  /* faz com que os elementos ocupme todo o espaço*/
+.coluna-rodape h3{margin-bottom: 20px;}
+.coluna-rodape ul{list-style: none;}
+.coluna-rodape ul li{margin-bottom: 10px;}
+.coluna-rodape a{text-decoration: none; color: #e2e2e2; transition: color 0.2 ease;}
+.coluna-rodape a:hover{color: aqua;}
+.icones-socias a{margin-right: 15px; font-size: 20px;}
+
+.carrossel-container{
+ display: flex;
+ margin-left: 100px;
+ margin-top: 30px;
+ gap: 5rem;
+}
+
+.cartao-promocao{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 6px #575757;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.ponta{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.ponta > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color: #222;
+    margin-left: 20px;
+}
+
+.famosos-container {
+    display: flex;
+    margin-left: 60px;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.famoso-card {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.famoso-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.famoso-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.famoso-card p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.card2{
+display: flex;
+flex-direction: column;
+width: 200px;
+height: 200px;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(99, 49, 169, 0.8);
+font-family: Arial, Helvetica, sans-serif;
+transition: transform 0.3s ease;
+flex: 0 0 auto; /*Evita que os cards encolham*/
+justify-content: center;
+
+}
+
+.card2:hover{
+    transform: scale(1.1);
+}
+
+.card2-imagem{
+    display: flex;
+    flex-direction: column;
+}
+.card2-imagem > img{
+    width: 200px;
+    height: 130px;
+}
+
+.card2-imagem > figcaption{
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+
+.rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.rodape-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rodape-coluna {
+    flex: 1;
+    min-width: 200px;
+}
+
+.rodape-coluna h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+}
+
+.rodape-coluna ul li {
+    margin-bottom: 10px;
+}
+
+.rodape-coluna ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.rodape-coluna ul li a:hover {
+    color: #fff;
+}
+
+.rodape-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.rodape-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
