@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <style>
+        body{
+            background-color: aqua;
+        }
+        h1{
+            color: blue;
+        }
+    </style> -->
+
+
+</head>
+
+<body>
+    <!--titulos de nivel 1 ate nivel 6 -->
+    <h1>Cabecalho de nivel 1</h1>
+    <h2>Cabecalho de nivel 2</h2>
+    <h3>Cabecalho de nivel 3</h3>
+    <h4>Cabecalho de nivel 4</h4>
+    <h5>Cabecalho de nivel 5</h5>
+    <h6>Cabecalho de nivel 6</h6>
+
+    <!-- tag para inserir uma linha horizontal -->
+    <hr>
+    <!-- tag p para um novo paragrafo -->
+    <p>este e um paragrafo</p>
+    <p>outro paragrafo</p>
+
+    <!-- tag br quebra a linha -->
+    <p>Este é um texto grande,<br>
+        que desejo quebrar a<br> linha</p>
+
+    <!-- inserindo um link para abrir outra Pagina -->
+    <a href="https://www.sesisp.org.br">sesi</a>
+    <p><a href="https://br.pinterest.com/" target="_blank">Senai</a></p>
+
+    <!-- adicionando imagens -->
+    <img src="https://static.corinthians.com.br/uploads/Zahxo723/175535542827f4acacf6f7487dc59e8c3292453bcc.jpg">
+    <hr>
+    <a href="../Lima A PASTA/index.html">Voltar</a>
+
+    <p>paragrafo com caractere &lt;a&gt;</p>
+    <!--para inserir um emoji use o hexadecimal do site-->
+    <!--emojipedia e o codigo vai depois do &#x-->
+    <p>inserindo emoji &#x1F60A &#x2764</p>
+
+    <!--tags para formatação e enfatização do texto-->
+    <b>texto em negrito</b><br>
+    <strong>Texto importante</strong>
+    <h1><i>H1 em itálico</i></h1>
+    <em>Texto enfatizado</em><br>
+    <mark>Texto marcado</mark><br>
+    <h3>Texto<small>menor</small></h3>
+    <del>Texto excluido</del>
+    <ins>Texto inserido</ins>
+    <p>4<sub>2</sub></p>
+    <p>3<sup>3</sup></p>
+    <U>Texto sublinhado</U><br>
+
+    <!-- listas -->
+    lista ordenadas
+
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Se arrumar</li>
+        <li>Comer</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola, no horario</li>
+    </ol>
+
+    lista ordenadas com numeros romanos minusculos
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Se arrumar</li>
+        <li>Comer</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola, no horario</li>
+    </ol>
+
+    lista ordenadas com numeros romanos maiusculos
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Se arrumar</li>
+        <li>Comer</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola, no horario</li>
+    </ol>
+
+    lista ordenadas com letras maiucsulas
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Se arrumar</li>
+        <li>Comer</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola, no horario</li>
+    </ol>
+
+    lista não ordenadas
+    <ul>
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+    </ul>
+
+    lista dentro da lista
+    <ul>
+        <li>Carne
+            <ul>
+                <li>Picanha</li>
+                <li>Cupim</li>
+                <li>Fraldinha</li>
+            </ul>
+        </li>
+    </ul>
+
+    trabalhando com tabelas.
+    <!-- criando uma nova tabela -->
+    <table border="1">
+        <!-- criando uma nova linha -->
+        <tr>
+            <!-- th insere uma celula de Cabecalho -->
+            <th>nome</th>
+            <th>idade</th>
+            <th>profissão</th>
+        </tr>
+        <tr>
+            <!-- td cria dados nas novas celulas -->
+            <td>Bertuci10</td>
+            <td>16 e 360 dias</td>
+            <td>Bilionario</td>
+        </tr>
+        <tr>
+            <td>Barreto</td>
+            <td>16</td>
+            <td>Milionario</td>
+        </tr>
+    </table>
+
+    tabelas mescladas
+    <table border="1">
+        <thead>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">João Pedro</td>
+                <td>15818181198</td>
+            </tr>
+            <tr>
+                <td>Thiciane</td>
+                <td>259889178</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="background-color: red;">CSS inline</p>
+    <h5 class="titulo">Trabalhando com CSS</h5>
+    <p>Visualizando o funcionamento da margem</p>
+    <img class="imagem"
+        src="https://static.corinthians.com.br/uploads/Zahxo723/175535542827f4acacf6f7487dc59e8c3292453bcc.jpg" alt="">
+    <h4>Criando nosso formulario</h4>
+    <form class="formulario">
+        <label>Nome</label>
+        <!-- inserir um campo texto digitavel -->
+        <input type="text" class="input-nome"><br>
+        <!-- tipo senha -->
+        <label>senha</label>
+        <input class="input-nome" placeholder="digite uma senha" type="password"><br>
+        <input href="#" type="button" class="botao" value="Entrar">
+        <br>
+        <!-- Incluindo checkbox(opções) -->
+        <input type="checkbox" class="checar"> Eu tenho uma bicicleta <br>
+        <input type="checkbox" class="checar"> Eu tenho uma moto <br>
+        <input type="checkbox" class="checar"> Eu tenho um carro <br>
+
+        <!-- Incluir input de cor -->
+        <input type="color" value="000000">
+
+        <!-- Inserindo data -->
+        <br><label for="">Data de nascimento</label>
+        <input type="date">
+        <input type="datetime-local">
+
+        <!-- Input do tipo email -->
+        <input type="email" placeholder="Digite seu email" class="email">
+
+        <!-- Seleção de arquivo -->
+        <input type="file">
+
+        <!-- Input de seleção -->
+        <select>
+            <!-- O atributo value, enviará o valor do item selecionado -->
+            <!-- para o servidor -->
+            <option value="">Selecione a escolaridade</option>
+            <option value="Primeiro médio">1° Médio</option>
+            <option value="Segundo Médio">2° Médio</option>
+            <option value="Terceiro Médio">3° Médio</option>
+        </select>
+        <select class="Selecao">
+            <option value="" selected>Selecione a escolaridade</option>
+            <option value="Primeiro médio">1° Médio</option>
+            <option value="Segundo Médio">2° Médio</option>
+            <option value="Terceiro Médio">3° Médio</option>
+        </select>
+
+        <!-- Input radio button -->
+        <p>Radio Button</p>
+        <input type="radio" name="tamanho"> Pequeno
+        <input type="radio" nane="tamanho"> Medio
+        <input type="radio" nane="tamanho"> Grande
+        <input type="radio" nane="tamanho"> Outro
+        <br>
+        <p>Radio Button</p>
+        <input type="radio" name="tamanho" class="radio"> Pequeno
+        <input type="radio" nane="tamanho" class="radio"> Medio
+        <input type="radio" nane="tamanho" class="radio"> Grande
+        <input type="radio" nane="tamanho" class="radio"> Outro
+
+        <!-- Criar um grupo de componentes -->
+        <fieldset>
+            <legend>Descrição</legend>
+            <textarea nane="" id=""></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="resert" value="Limpar">
+
+    </form>
+</body>

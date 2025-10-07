@@ -1,0 +1,77 @@
+.titulo{
+     background-color: rgb(152, 152, 152);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* aplica margem em todos */
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+    /* aplico o espaçamento no superior e inferior */
+    /* e aplico o espaçamento na esquerda  e direita */
+    /* margin: 20 0px; */
+    /* margin: 0 0 0 10px; */
+    /* aplicando espaçamento externo */
+    /* padding: 10px; */
+    /* padding: 0 10px; */
+}
+
+.imagem456{
+    /* aplicando tamanho em largura */
+    width: 325px;
+    /* aplicando tamanho em altura */
+    height: 325px;
+}
+.imagem_correndo{
+    width: 325px;
+    height: 325px;
+}
+.imagem3{
+    width: 325px;
+    height: 325px;
+}
+.imagem_short{
+    width: 325px;
+    height: 325px;
+}
+
+.imagem_login{
+    width: 1500px;
+    height: 700px;
+}
+
+.login{
+    background-color: rgb(151, 151, 151); color: rgb(0, 0, 0);
+    width: 200px;
+    text-align: center;
+  margin-left: 20px;
+  font-size: medium;
+}
+
+.input-nome{
+    /* remover as bordas */
+    border: none;
+    /* aplica curvatura nas bordas */
+    border-radius: 2px;
+    margin-left: 10px;
+    /* difinir opacidade no campo texto */
+    opacity: 70%;
+    text-align: center;
+}
+
+.botao{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    /* aplicando sombra no texto posição x, y blur */
+    text-shadow: 5px 2px 5px rgba(212,14,57, 0.9) ;
+    text-align: center;
+}
+
+.cadastro{
+    background-color: rgb(94, 94, 94); color: rgb(0, 0, 0);
+    width: 400px;
+    text-align: center;
+   margin: 0 auto;
+}
